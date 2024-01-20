@@ -1,0 +1,230 @@
+{
+    "intents": [
+        {
+            "tag":"shutdown",
+            "patterns":["shut down","shutdown","Turn of the system", "turn off the system", "Turn off the system", "Turn off the system yaar","Close the system","Close system","Buddy close the system","Buddy close system","Buddy turn off the system","Buddy turn off system","Buddy turn of the system","Buddy turn of system","Buddy shut down the system","Buddy shut down system","Buddy shutdown the system","Buddy shutdown system","Buddy close the system yaar","Buddy close system yaar","Buddy turn off the system yaar","Buddy turn off system yaar","Buddy turn of the system yaar","Buddy turn of system yaar","Buddy shut down the system yaar","Buddy shut down system yaar","Buddy shutdown the system yaar","Buddy shutdown system yaar","Buddy close the system please","Buddy close system please","Buddy turn off the system please","Buddy turn off system please","Buddy turn of the system please","Buddy turn of system please","Buddy shut down the system please","Buddy shut down system please","Buddy shutdown the system please","Buddy shutdown system please"],
+            "responses":["Bye take care!", "I am going to sleep", "Talk to you later sir!", "Goodbye!", "See you later", "Bye! Come back again soon.", "It was nice talking to you. See you soon :)"]
+        },
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","is anyone there","whats up","hey","yo","hey buddy","buntai"],
+            "responses":["Hello sir! how are you?","Hi! how are  you sir?","Hi there! How can I help you,","How can I help you?","yes sir!"]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","see you later","goodbye","nice chatting to you, bye","see you next time","see you!","I am Leaving","Have a Good day","Bye take care","Okay bye!","Tata","bye buddy","I am going to sleep"],
+            "responses":["Bye","See you later","Bye! Come back again soon.","It was nice talking to you. See you soon :)","Bye take care!", "I am going to sleep","Talk to you later sir!"]
+        },
+        {
+            "tag": "wakeup",
+            "patterns":["wake up","wakeup","wake up buddy","wakeup buddy","wake up please","wakeup please","get up","getup","get up buddy","get up quickly","get up fast","wake up fast","wakeup fast","wake up quickly","wakeup quickly","wake up buddy fast","wakeup buddy fast","wake up buddy quickly","wakeup buddy quickly","wake up buddy please","wakeup buddy please","wake up please buddy","wakeup please buddy","wake up please buddy fast","wakeup please buddy fast","wake up please buddy quickly","wakeup please buddy quickly","wake up fast buddy","wakeup fast buddy","wake up quickly buddy","wakeup quickly buddy","wake up fast please","wakeup fast please","wake up quickly please","wakeup quickly please","wake up fast buddy please","wakeup fast buddy please","wake up quickly buddy please","wakeup quickly buddy please"],
+            "responses":["wakeup"]
+        },
+        {
+            "tag":"Well being",
+            "patterns":["How are you","How are you doing","how are you","whats up","how you doing","how r u","how r you","how are u","All good","whats new","whats going on","what is going on","how is it going","how is it going on","how is everything"],
+            "responses":["I am doing fine, thanks for asking sir. How are you sir?","I am doing great!","I am good. How can I help you?","I am good, Thanks!","I am fine, Thank you!","fine","cool sir!"]
+        },
+        {
+            "tag":"developer",
+            "patterns":["who made you","who created you","who discovered you","who is your developer","who is your owner","who made you","who thought to make you"],
+            "responses":["Khizer Qureshi :)","I am developed by Khizer Qureshi.","Khizer Qureshi is my developer.","I am created by Khizer Qureshi."]
+        },
+        {
+            "tag":"Identity",
+            "patterns":["What is your name","whats your name","what should I call you","What do i call you","do you have any name"],
+            "responses":["My name is Buddy. Can you say your name please","I am Buddy. whats your name by the way?","I am Buddy. What's your name?","call me Buddy, and what I suppose to call you?","They call me Buddy. and what they call you?"]
+        },
+        {
+            "tag":"Identity2",
+            "patterns":["my name","my name is","he is","she is","his name is","her name","her name is","his name","he is my friend","she is my friend"],
+            "responses":["Identity2"]
+            
+        },
+        {
+            "tag":"myself",
+            "patterns":["who are you","tell me about yourself","say me about yourself","tell me about you","say me about you"],
+            "responses":["I am Buddy. I am here to help you. I can do many things like opening chrome, notepad, calculator, wikipedia, google search, time, date, day, wish you, tell you jokes, and many more things. I am still learning. I am developed by Khizer Qureshi. He developed me to make his work easy, that when he is busy in some stuff it give me tasks to do on  his computer that's why I am his virtual assistant."]
+            
+        },
+        {
+            "tag":"Timepass",
+            "patterns":["what are you doing","what are you doing in free Time","what do you do in free time","what do you do in your free time","what are you doing today","what are you doing right now","what timepass doing"],
+            "responses":["I am eating bugs.","finding places to go with you","I am playing with bugs.","well now I'm talking to you. What are you doing?","just Timepass"]
+        },
+        {
+            "tag":"time",
+            "patterns":["What time is it","what is the time","what's the time","do you know the time","time"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["Whats date today","what is the date today","what's the date today","date","date today","today date","Today is which date"],
+            "responses":["date"]
+        },
+        {
+            "tag":"day",
+            "patterns":["what day is it today","what is the day today","what's the day today","day","day today","today day","Today is which day"],
+            "responses":["day"]
+        },
+        {
+            "tag":"wishme",
+            "patterns":["Good Morning buddy","Morning Buddy","Good Morning","Morning","Good Afternoon","Good Evening","Good Night","Afternoon","Evening","Night","Good Night Buddy","Good Evening Buddy","Good Afternoon Buddy"],
+            "responses":["wishme"]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["Thank you","Thanks","Thanks a lot","Thanks buddy","Thank you so much","Thank you buddy","Thank you very much"],
+            "responses":["You're welcome!","Anytime!","My pleasure","It's my pleasure to help you","No problem!","No worries!"]
+        },
+        {
+            "tag":"hosh",
+            "patterns":["Are you hear","Can you hear","Is the voice coming","What is the voice coming ","Kya tum sun sakte ho"],
+            "responses":["Yes sir!","Yes I can hear you","Yes I can hear you clearly","Yes I can hear you properly","Yes I can hear you properly sir","Yes I can hear you clearly sir"]
+        },{
+            "tag" : "wakeup",
+            "patterns":["wakeup buddy","wakeup","wake up","khizer the boss cool","get up","getup","get up buddy","get up quickly","get up fast"],
+            "responses":["wakeup"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","what is","who are","what are","what do you know about","tell me something about","tell me about","tell me something about","about","how is","how to make","how to do","how to"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"wikipedia2",
+            "patterns":["can you say more about it","can you say more about","tell me more about","say me more about","say more about","more about","give me full information about","give me full information","give me further information about","give me further information","give me more information about","give me more information","give me more details about","give me more details","give me further details about","give me further details","give me details about","give me details","give me information about","give me information"],
+            "responses":["wikipedia2"]
+        },
+        {
+            "tag":"summary",
+            "patterns":["summary","summarize this","can you summarize this","can you exlain me in short","can you understand me this","will you understand me this","explain me this in short","tell me summary of this"],
+            "responses":["summary"]
+        },
+        {
+            "tag":"google",
+            "patterns":["search","google","google search","search on google","watch on google","see on google","buddy search","buddy google","buddy google search","buddy search on google","buddy watch on google","buddy see on google"],
+            "responses":["google"]
+        },
+        {
+            "tag":"closechrome",
+            "patterns":["close chrome","turn off the chrome","shut down the chrome","shut down the google","shutdown the chrome","shutdown the google","turn off the google","close google"],
+            "responses":["closechrome"]
+        },
+        {
+            "tag":"minimizechrome",
+            "patterns":["do small chrome","small do chrome","minimize chrome","minimize google","minimize the chrome","minimize the google","minimize chrome buddy","minimize google buddy","minimize the chrome buddy","minimize the google buddy"],
+            "responses":["minimizechrome"]
+        },
+        {
+            "tag":"notepad",
+            "patterns":["open notepad","open notepad buddy","open notepad please","open notepad buddy please","open notepad please buddy","on notepad buddy","on notepad","turn on the notepad","turn on notepad","turn on notepad buddy","turn on notepad please"],
+            "responses":["notepad"]
+        },
+        {
+            "tag":"udtxt",
+            "patterns":["I want to update file","I want to delete file","can you update that file","can you delete that file","open file txt","open file buddy","can you open that file buddy"],
+            "responses":["udtxt"]
+        },
+        {
+            "tag":"clnp",
+            "patterns":["close notepad","turn off the notepad","close notepad buddy","turn off the notepad buddy","shut down the notepad","shut down the notepad buddy"],
+            "responses":["clnp"]
+        },
+        {
+            "tag":"calculator",
+            "patterns":["I want to calculate something buddy","calculate that","calcule","log","what is log of","calculate log","solve for","solve","solve buddy"],
+            "responses":["calculator"]
+        },
+        {
+            "tag":"break",
+            "patterns":["1 minute buddy","1 minute","one minute buddy","one minute","1 minute please","take a break","take a break buddy","2 minute buddy","pause","pause buddy","bro pause","brother pause","buddy pause"],
+            "responses":["break"]
+        },
+        {
+            "tag":"whatsapp",
+            "patterns":["whatsapp","open whatsapp","open whatsapp buddy","open whatsapp please","open whatsapp buddy please","open whatsapp please buddy","on whatsapp buddy","on whatsapp","turn on the whatsapp","turn on whatsapp","turn on whatsapp buddy","turn on whatsapp please","I want to send message on whatsapp","I want to send message on whatsapp buddy","send message to"],
+            "responses":["whatsapp"]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":["take screenshot","take screenshot buddy","take screenshot please","take screenshot buddy please","take screenshot please buddy","take screenshot buddy fast","take screenshot fast buddy","take screenshot quickly buddy","take screenshot buddy quickly","take screenshot fast","take screenshot quickly","take screenshot fast buddy please","take ss buddy","take ss","ss low","low ss","ss low buddy"],
+            "responses":["screenshot"]
+        },
+        {
+            "tag":"closess",
+            "patterns":["close ss","ss close","ss band karo","band karo ss ko","screenshot band karo","close screenshot","close photos","close album","close album buddy"],
+            "responses":["closess"]
+        },
+        {
+            "tag":"youtube",
+            "patterns":["youtube","on youtube play","play on youtube","play","on youtube","play my playlist","play my playlist buddy"],
+            "responses":["youtube"]
+        },
+        {
+            "tag": "picture",
+            "patterns":["buddy take a picture","take picture","take a pic","take a pick","buddy take picture"],
+            "responses":["picture"]
+        },
+        {
+            "tag": "weather",
+            "patterns":["whats the weather today buddy","todays weather","weather","how the weather today buddy","how's the weather today"],
+            "responses":["weather"]
+        },
+        {
+            "tag": "video",
+            "patterns":["buddy make a video","make video","start video","buddy start video","make a video fast"],
+            "responses":["video"]
+        },
+        {
+            "tag": "scroll",
+            "patterns":["scroll","scroll buddy","buddy scroll","scrololl"],
+            "responses":["scroll"]
+        },
+        {
+            "tag":"microsoftppt",
+            "patterns":["open ppt","open presentation","open microsoft presentation","open microsoft powerpoint"],
+            "responses":["microsoftppt"]
+        },
+        {
+            "tag": "closemipp",
+            "patterns":["close ppt","close presentation","close microsoft presentation","close microsoft powerpoint"],
+            "responses":["closemipp"]
+        },
+        {
+            "tag":"dictionary",
+            "patterns":["what is the meaning of","what is the mean of"],
+            "responses":["dictionary"]
+        }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
